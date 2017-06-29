@@ -4,9 +4,10 @@
   "description": "lvquan's npm publish test module",
   "main": "dist/index.js",
   "scripts": {
-    "build": "babel src --out-dir dist --copy-files",
+    "build": "babel src --out-dir dist --copy-files --ignore spec.js,test.js",
     "test": "jest",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "release": "np"
   },
   "repository": {
     "type": "git",
@@ -26,7 +27,8 @@
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-preset-env": "^1.5.2",
-    "jest": "^20.0.4"
+    "jest": "^20.0.4",
+    "np": "^2.16.0"
   },
   "babel": {
     "presets": [
