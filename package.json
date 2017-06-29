@@ -1,6 +1,6 @@
 {
   "name": "lvquan-test",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "lvquan's npm publish test module",
   "main": "dist/index.js",
   "scripts": {
