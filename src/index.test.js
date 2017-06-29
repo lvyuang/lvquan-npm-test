@@ -3,5 +3,5 @@ import func from '.'
 test('print hello', () => {
   const result = func()
 
-  expect(result).toBe('hello')
+  expect(result).toBe('Hello, this is my second version.')
 })
