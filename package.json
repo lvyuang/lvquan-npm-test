@@ -26,6 +26,8 @@
   "homepage": "https://github.com/lvyuang/lvquan-npm-test#readme",
   "devDependencies": {
     "babel-cli": "^6.24.1",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
     "babel-preset-env": "^1.5.2",
     "jest": "^20.0.4",
     "np": "^2.16.0"
@@ -33,6 +35,11 @@
   "babel": {
     "presets": [
       "env"
+    ],
+    "plugins": [
+      "add-module-exports",
+      "transform-es2015-modules-umd"
     ]
-  }
+  },
+  "dependencies": {}
 }
