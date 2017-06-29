@@ -1,0 +1,35 @@
+{
+  "name": "lvquan-test",
+  "version": "1.0.0",
+  "description": "lvquan's npm publish test module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist --copy-files",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lvyuang/lvquan-npm-test.git"
+  },
+  "keywords": [
+    "lvquan",
+    "npm",
+    "test"
+  ],
+  "author": "lvquan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lvyuang/lvquan-npm-test/issues"
+  },
+  "homepage": "https://github.com/lvyuang/lvquan-npm-test#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.2",
+    "jest": "^20.0.4"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  }
+}
